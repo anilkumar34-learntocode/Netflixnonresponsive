@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(40, 38, 38);
+}
+html {
+  font-size: 62.5%;
+}
+.logo {
+  width: 15rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5rem;
+  padding: 2rem 0 0;
+  position: relative;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Background1-modified.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container2 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 60vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container3 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 60vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+.container4 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 60vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+.container5 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 60vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+.container6 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  margin-top: 1rem;
+  width: 100%;
+  height: 35vh;
+  background: black;
+  padding: 6rem 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+}
+.langbox {
+  width: 5.5rem;
+  height: 2rem;
+  padding: 8px 22px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  border: solid white 2px;
+  align-content: center;
+  position: absolute;
+  border-radius: 5px;
+  left: 80%;
+}
+
+.lang:before {
+  position: absolute;
+  content: url("globe.svg");
+  left: 0.5rem;
+}
+.lang:after {
+  position: absolute;
+  content: url("down.svg");
+  width: 1.5rem;
+}
+.redButton {
+  width: 4.5rem;
+  height: 2rem;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 8px 18px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+  text-align: justify;
+  border-radius: 5px;
+  position: absolute;
+  left: 90%;
+}
+.redButton:hover {
+  cursor: pointer;
+}
+.story-card-text {
+  color: white;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  line-height: 0.5rem;
+  text-align: center;
+}
+.story-card-title {
+  font-size: 6.5rem;
+}
+.story-card-subtitle {
+  font-size: 3rem;
+}
+.email-title {
+  font-size: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.submit {
+  background-color: #e50914;
+  color: white;
+  width: 20rem;
+  height: 7rem;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.content-text {
+  width: 100rem;
+  height: 30rem;
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: left;
+  align-items: center;
+}
+.our-story-card {
+  font-size: 5rem;
+  text-align: left;
+  width: 60rem;
+  height: auto;
+  margin: 0;
+}
+.our-story-cardsub {
+  font-size: 2.5rem;
+  text-align: left;
+  width: 60rem;
+  height: auto;
+  margin: 0;
+}
+
+.content-text-box {
+  line-height: 3rem;
+}
+.image1 {
+  position: absolute;
+  top: -11%;
+  right: -20%;
+}
+.video1 {
+  position: relative;
+}
+.image2 {
+  position: absolute;
+  top: 10%;
+  right: -26%;
+}
+.video2 {
+  position: relative;
+}
+.faq {
+  font-size: 5rem;
+  text-align: center;
+}
+.list {
+  list-style: none;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  width: 80rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+  border: solid 1px #303030;
+  background-color: #303030;
+  font-size: 2.5rem;
+  line-height: 10rem;
+  text-align: center;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-footer {
+  width: 90rem;
+  height: 30rem;
+  margin: 0 5rem;
+  color: #757575;
+  font-size: 1.5rem;
+}
+.listbox {
+  display: flex;
+  flex-direction: row;
+  width: 130rem;
+  justify-content: center;
+  align-content: center;
+  line-height: 3rem;
+}
+.list2 {
+  list-style: none;
+}
+.list3 {
+  width: 15rem;
+}
+.footer-top {
+  text-align: center;
+}
